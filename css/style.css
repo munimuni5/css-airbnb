@@ -1,3 +1,96 @@
+body {
+	background-color: #EDEFEC;
+}
 h1 {
-  color: salmon;
+  color: #666666;
+  text-align: center;
+  padding: 1px 1px;
+  margin: 0;
+  font-size: 22px;
+  font-family: helvetica neue;
+}
+p {
+	text-align: center;
+	padding: 1px 1px;
+	margin: 0;
+	font-size: 12px;
+	font-family: helvetica neue;	
+}
+/*div {
+	width: 100%;
+	text-align: center;
+  	display: inline-block;
+  	height: 200px;
+}
+img {
+	display: inline-block;
+	height: 200px;
+	width: 250px;
+	padding: 4px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}*/
+/*button {
+	text-align: center;
+	padding: 5px 50px;
+	margin-bottom: 50px;
+	margin-top: 10px;
+	font-family: helvetica neue;
+}*/
+button{
+  	display:block;
+  	margin: 1.5em auto;
+  	padding: 0.25em 3em;
+}
+/*.citytext{
+	display: inline;
+	color: white;
+	position: relative;
+	bottom: 150px;
+	right: 190px;	
+}*/
+/*.topimages{
+	position:relative;
+}
+.topimages span{
+	position: absolute;
+	left: 0px;
+	line-height: 40px;
+	top: 80px;
+	width: 100%;
+}*/
+
+.flexContainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: flex-start;
+	text-align: center;
+}
+
+/*.flexContainer > *{
+	width: 200px;
+	height: 200px;
+	margin: 5px auto;
+}*/
+
+img{
+	width: 200px;
+	height: 200px;
+}
+
+.sillywrapper{
+	position:relative;
+}
+
+.flexContainer > .sillywrapper span{
+	position: absolute;
+	left:0px;
+	line-height: 40px;
+	top:80px;
+	width:100%;
+	color: white;
+	background-color: rgba (0, 0, 0, 0.5)
 }
